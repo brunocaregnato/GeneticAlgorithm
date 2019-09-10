@@ -6,12 +6,20 @@ namespace EmpilhadeiraAutoguiada
 {
     class GeneticAlgorithm
     {
-        public int MutationRate { get; set; }
-        public int CrossoverRate { get; set; }
+        public float MutationRate { get; set; }
+        public float CrossoverRate { get; set; }
+        public int genesNumbers { get; set; }
+        public List<string> Possibilities { get; set; }
 
-        public string startLabyrinth(int[,] labyrinth)
+        public GeneticAlgorithm()
         {
-            return "";
+            Possibilities = new List<string>
+            {
+                "South",
+                "North",
+                "West",
+                "East"
+            };
         }
 
     }

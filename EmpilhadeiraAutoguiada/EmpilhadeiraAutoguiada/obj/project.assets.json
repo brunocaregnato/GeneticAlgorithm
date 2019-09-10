@@ -789,11 +789,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bruno.miguel\\Downloads\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada.csproj",
+      "projectUniqueName": "C:\\Users\\bruno.miguel\\Downloads\\GeneticAlgorithm-master\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada.csproj",
       "projectName": "EmpilhadeiraAutoguiada",
-      "projectPath": "C:\\Users\\bruno.miguel\\Downloads\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada.csproj",
+      "projectPath": "C:\\Users\\bruno.miguel\\Downloads\\GeneticAlgorithm-master\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada.csproj",
       "packagesPath": "C:\\Users\\bruno.miguel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bruno.miguel\\Downloads\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada\\obj\\",
+      "outputPath": "C:\\Users\\bruno.miguel\\Downloads\\GeneticAlgorithm-master\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
