@@ -6,9 +6,9 @@ namespace EmpilhadeiraAutoguiada
 {
     class Forklift
     {
-        private GeneticAlgorithm GeneticAlgorithm { get; set; }
-        private List<string> Directions { get; set; } = new List<string>();
-        private int Aptitude { get; set; }
+        public GeneticAlgorithm GeneticAlgorithm { get; set; }
+        public List<string> Directions { get; set; } = new List<string>();
+        public int Aptitude { get; set; }
 
         public Forklift(int genesNumbers)
         {
@@ -36,22 +36,22 @@ namespace EmpilhadeiraAutoguiada
                 switch (Directions[i])
                 {
                     case "North":
-                        Aptitude += surpassedBounds("North", i);
+                        Aptitude += SurpassedBounds("North", i);
                         break;
                     case "South":
-                        Aptitude += surpassedBounds("South", i);
+                        Aptitude += SurpassedBounds("South", i);
                         break;
                     case "West":
-                        Aptitude += surpassedBounds("West", i);
+                        Aptitude += SurpassedBounds("West", i);
                         break;
                     case "East":
-                        Aptitude += surpassedBounds("East", i);
+                        Aptitude += SurpassedBounds("East", i);
                         break;
                 }
             }
         }
 
-        private int surpassedBounds(string destiny, int nodo)
+        private int SurpassedBounds(string destiny, int nodo)
         {
             //pegar a coordenada atual, verificar no quadrante (ver com julio)
 
@@ -68,6 +68,38 @@ namespace EmpilhadeiraAutoguiada
             }
 
             return 0;
+        }
+
+        //cria um indivíduo com os genes definidos
+        public Forklift(List<string> direction)
+        {
+            var random = new Random();
+            GeneticAlgorithm = new GeneticAlgorithm();
+
+            var possibilities = GeneticAlgorithm.Possibilities;
+            var directionAux = new List<string>();
+            Directions = direction;
+            //se for mutar, cria um gene aleatório
+            if (random.NextDouble() <= GeneticAlgorithm.MutationRate)
+            {
+
+                int posAleatoria = random.Next(Directions.Count);
+                for (int i = 0; i < Directions.Count; i++)
+                {
+                    if (i == posAleatoria)
+                    {
+                        directionAux.Add(possibilities[random.Next(4)]);
+                    }
+                    else
+                    {
+                        directionAux.Add(Directions[i]);
+                    }
+                }
+                Directions = directionAux;
+            }
+            //posicao = new Coordenadas(0, 9);
+
+            GeneratesAptitude();
         }
 
     }

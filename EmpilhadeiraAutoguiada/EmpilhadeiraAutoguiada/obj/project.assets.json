@@ -783,23 +783,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bruno.miguel\\.nuget\\packages\\": {},
+    "C:\\Users\\Bruno\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bruno.miguel\\Downloads\\GeneticAlgorithm-master\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada.csproj",
+      "projectUniqueName": "C:\\Github\\GeneticAlgorithm\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada.csproj",
       "projectName": "EmpilhadeiraAutoguiada",
-      "projectPath": "C:\\Users\\bruno.miguel\\Downloads\\GeneticAlgorithm-master\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada.csproj",
-      "packagesPath": "C:\\Users\\bruno.miguel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bruno.miguel\\Downloads\\GeneticAlgorithm-master\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada\\obj\\",
+      "projectPath": "C:\\Github\\GeneticAlgorithm\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada.csproj",
+      "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
+      "outputPath": "C:\\Github\\GeneticAlgorithm\\EmpilhadeiraAutoguiada\\EmpilhadeiraAutoguiada\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\bruno.miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -824,7 +824,6 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
