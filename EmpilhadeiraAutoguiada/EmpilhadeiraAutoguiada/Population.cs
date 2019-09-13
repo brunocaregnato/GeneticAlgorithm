@@ -14,6 +14,7 @@ namespace EmpilhadeiraAutoguiada
         public int PopulationSize { get; set; }
         public int CurrentGeneration { get; private set; }
         public Route BestRoute { get; private set; }
+        public int BestRouteFitness { get; private set; }
         public bool Elitism { get; private set; }
         public double CrossoverRate { get; private set; }
         public double MutationRate { get; private set; }
@@ -60,9 +61,10 @@ namespace EmpilhadeiraAutoguiada
                 nextGeneration.AddRange(routes);
             }
 
-            _routes = nextGeneration;
+            _routes = nextGeneration.OrderByDescending(route => _optimizer.GetFitness(route, _map)).ToList();
             CurrentGeneration++;
             BestRoute = _routes.First();
+            BestRouteFitness = _optimizer.GetFitness(BestRoute, _map);
         }
 
         private Route RandomTournament(Random r)
