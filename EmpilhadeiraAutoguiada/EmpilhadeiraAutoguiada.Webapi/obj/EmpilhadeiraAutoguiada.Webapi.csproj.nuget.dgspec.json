@@ -1,0 +1,127 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/julio/Documents/ucs/GeneticAlgorithm/EmpilhadeiraAutoguiada/EmpilhadeiraAutoguiada.Webapi/EmpilhadeiraAutoguiada.Webapi.csproj": {}
+  },
+  "projects": {
+    "/home/julio/Documents/ucs/GeneticAlgorithm/EmpilhadeiraAutoguiada/EmpilhadeiraAutoguiada.Webapi/EmpilhadeiraAutoguiada.Webapi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/julio/Documents/ucs/GeneticAlgorithm/EmpilhadeiraAutoguiada/EmpilhadeiraAutoguiada.Webapi/EmpilhadeiraAutoguiada.Webapi.csproj",
+        "projectName": "EmpilhadeiraAutoguiada.Webapi",
+        "projectPath": "/home/julio/Documents/ucs/GeneticAlgorithm/EmpilhadeiraAutoguiada/EmpilhadeiraAutoguiada.Webapi/EmpilhadeiraAutoguiada.Webapi.csproj",
+        "packagesPath": "/home/julio/.nuget/packages/",
+        "outputPath": "/home/julio/Documents/ucs/GeneticAlgorithm/EmpilhadeiraAutoguiada/EmpilhadeiraAutoguiada.Webapi/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/julio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/home/julio/Documents/ucs/GeneticAlgorithm/EmpilhadeiraAutoguiada/EmpilhadeiraAutoguiada/EmpilhadeiraAutoguiada.csproj": {
+                "projectPath": "/home/julio/Documents/ucs/GeneticAlgorithm/EmpilhadeiraAutoguiada/EmpilhadeiraAutoguiada/EmpilhadeiraAutoguiada.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/julio/Documents/ucs/GeneticAlgorithm/EmpilhadeiraAutoguiada/EmpilhadeiraAutoguiada/EmpilhadeiraAutoguiada.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/julio/Documents/ucs/GeneticAlgorithm/EmpilhadeiraAutoguiada/EmpilhadeiraAutoguiada/EmpilhadeiraAutoguiada.csproj",
+        "projectName": "EmpilhadeiraAutoguiada",
+        "projectPath": "/home/julio/Documents/ucs/GeneticAlgorithm/EmpilhadeiraAutoguiada/EmpilhadeiraAutoguiada/EmpilhadeiraAutoguiada.csproj",
+        "packagesPath": "/home/julio/.nuget/packages/",
+        "outputPath": "/home/julio/Documents/ucs/GeneticAlgorithm/EmpilhadeiraAutoguiada/EmpilhadeiraAutoguiada/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/julio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

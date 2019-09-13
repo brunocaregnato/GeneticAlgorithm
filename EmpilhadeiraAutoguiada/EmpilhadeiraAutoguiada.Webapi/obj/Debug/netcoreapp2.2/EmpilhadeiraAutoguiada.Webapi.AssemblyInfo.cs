@@ -7,10 +7,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("EmpilhadeiraAutoguiada")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("EmpilhadeiraAutoguiada.Webapi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("EmpilhadeiraAutoguiada")]
-[assembly: System.Reflection.AssemblyTitleAttribute("EmpilhadeiraAutoguiada")]
+[assembly: System.Reflection.AssemblyProductAttribute("EmpilhadeiraAutoguiada.Webapi")]
+[assembly: System.Reflection.AssemblyTitleAttribute("EmpilhadeiraAutoguiada.Webapi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
