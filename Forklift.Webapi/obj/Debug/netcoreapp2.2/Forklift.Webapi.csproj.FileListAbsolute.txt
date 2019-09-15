@@ -1,0 +1,17 @@
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/obj/Debug/netcoreapp2.2/Forklift.Webapi.csprojAssemblyReference.cache
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/obj/Debug/netcoreapp2.2/Forklift.Webapi.csproj.CoreCompileInputs.cache
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/obj/Debug/netcoreapp2.2/Forklift.Webapi.RazorAssemblyInfo.cache
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/obj/Debug/netcoreapp2.2/Forklift.Webapi.RazorAssemblyInfo.cs
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/obj/Debug/netcoreapp2.2/Forklift.Webapi.AssemblyInfoInputs.cache
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/obj/Debug/netcoreapp2.2/Forklift.Webapi.AssemblyInfo.cs
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/bin/Debug/netcoreapp2.2/Forklift.Webapi.deps.json
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/bin/Debug/netcoreapp2.2/Forklift.Webapi.runtimeconfig.json
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/bin/Debug/netcoreapp2.2/Forklift.Webapi.runtimeconfig.dev.json
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/bin/Debug/netcoreapp2.2/Forklift.Webapi.dll
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/bin/Debug/netcoreapp2.2/Forklift.Webapi.pdb
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/bin/Debug/netcoreapp2.2/Forklift.dll
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/bin/Debug/netcoreapp2.2/Forklift.pdb
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/obj/Debug/netcoreapp2.2/Forklift.Webapi.RazorTargetAssemblyInfo.cache
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/obj/Debug/netcoreapp2.2/Forklift.Webapi.csproj.CopyComplete
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/obj/Debug/netcoreapp2.2/Forklift.Webapi.dll
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/obj/Debug/netcoreapp2.2/Forklift.Webapi.pdb

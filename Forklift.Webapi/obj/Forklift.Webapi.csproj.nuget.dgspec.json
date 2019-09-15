@@ -27,7 +27,11 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/julio/Documents/ucs/GeneticAlgorithm/Forklift/Forklift.csproj": {
+                "projectPath": "/home/julio/Documents/ucs/GeneticAlgorithm/Forklift/Forklift.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -54,6 +58,56 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/julio/Documents/ucs/GeneticAlgorithm/Forklift/Forklift.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/julio/Documents/ucs/GeneticAlgorithm/Forklift/Forklift.csproj",
+        "projectName": "Forklift",
+        "projectPath": "/home/julio/Documents/ucs/GeneticAlgorithm/Forklift/Forklift.csproj",
+        "packagesPath": "/home/julio/.nuget/packages/",
+        "outputPath": "/home/julio/Documents/ucs/GeneticAlgorithm/Forklift/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/julio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
               "autoReferenced": true
             }
           },

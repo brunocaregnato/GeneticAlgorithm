@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forklift", "Forklift\Forklift.csproj", "{EDF97C04-2878-49D7-8702-AE8911866F7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forklift.Webapi", "Forklift.Webapi\Forklift.Webapi.csproj", "{8A238DA1-4F7C-4C30-8F92-53A7C4E1385D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,5 +18,31 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDF97C04-2878-49D7-8702-AE8911866F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF97C04-2878-49D7-8702-AE8911866F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF97C04-2878-49D7-8702-AE8911866F7A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EDF97C04-2878-49D7-8702-AE8911866F7A}.Debug|x64.Build.0 = Debug|Any CPU
+		{EDF97C04-2878-49D7-8702-AE8911866F7A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EDF97C04-2878-49D7-8702-AE8911866F7A}.Debug|x86.Build.0 = Debug|Any CPU
+		{EDF97C04-2878-49D7-8702-AE8911866F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF97C04-2878-49D7-8702-AE8911866F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF97C04-2878-49D7-8702-AE8911866F7A}.Release|x64.ActiveCfg = Release|Any CPU
+		{EDF97C04-2878-49D7-8702-AE8911866F7A}.Release|x64.Build.0 = Release|Any CPU
+		{EDF97C04-2878-49D7-8702-AE8911866F7A}.Release|x86.ActiveCfg = Release|Any CPU
+		{EDF97C04-2878-49D7-8702-AE8911866F7A}.Release|x86.Build.0 = Release|Any CPU
+		{8A238DA1-4F7C-4C30-8F92-53A7C4E1385D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A238DA1-4F7C-4C30-8F92-53A7C4E1385D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A238DA1-4F7C-4C30-8F92-53A7C4E1385D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8A238DA1-4F7C-4C30-8F92-53A7C4E1385D}.Debug|x64.Build.0 = Debug|Any CPU
+		{8A238DA1-4F7C-4C30-8F92-53A7C4E1385D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8A238DA1-4F7C-4C30-8F92-53A7C4E1385D}.Debug|x86.Build.0 = Debug|Any CPU
+		{8A238DA1-4F7C-4C30-8F92-53A7C4E1385D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A238DA1-4F7C-4C30-8F92-53A7C4E1385D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A238DA1-4F7C-4C30-8F92-53A7C4E1385D}.Release|x64.ActiveCfg = Release|Any CPU
+		{8A238DA1-4F7C-4C30-8F92-53A7C4E1385D}.Release|x64.Build.0 = Release|Any CPU
+		{8A238DA1-4F7C-4C30-8F92-53A7C4E1385D}.Release|x86.ActiveCfg = Release|Any CPU
+		{8A238DA1-4F7C-4C30-8F92-53A7C4E1385D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

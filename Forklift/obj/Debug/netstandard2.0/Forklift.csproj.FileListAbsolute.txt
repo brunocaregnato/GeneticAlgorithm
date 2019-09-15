@@ -1,0 +1,9 @@
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift/bin/Debug/netstandard2.0/Forklift.deps.json
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift/bin/Debug/netstandard2.0/Forklift.dll
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift/bin/Debug/netstandard2.0/Forklift.pdb
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift/obj/Debug/netstandard2.0/Forklift.csprojAssemblyReference.cache
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift/obj/Debug/netstandard2.0/Forklift.csproj.CoreCompileInputs.cache
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift/obj/Debug/netstandard2.0/Forklift.AssemblyInfoInputs.cache
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift/obj/Debug/netstandard2.0/Forklift.AssemblyInfo.cs
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift/obj/Debug/netstandard2.0/Forklift.dll
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift/obj/Debug/netstandard2.0/Forklift.pdb
