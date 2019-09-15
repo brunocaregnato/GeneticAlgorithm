@@ -15,3 +15,5 @@
 /home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/obj/Debug/netcoreapp2.2/Forklift.Webapi.csproj.CopyComplete
 /home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/obj/Debug/netcoreapp2.2/Forklift.Webapi.dll
 /home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/obj/Debug/netcoreapp2.2/Forklift.Webapi.pdb
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/bin/Debug/netcoreapp2.2/Forklift.Webapi.xml
+/home/julio/Documents/ucs/GeneticAlgorithm/Forklift.Webapi/obj/Debug/netcoreapp2.2/Forklift.Webapi.xml

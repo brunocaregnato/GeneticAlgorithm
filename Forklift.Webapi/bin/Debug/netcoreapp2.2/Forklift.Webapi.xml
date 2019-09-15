@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Forklift.Webapi</name>
+    </assembly>
+    <members>
+        <member name="M:Forklift.Webapi.Controllers.SessionsController.CreateSessionAsync(Forklift.Webapi.InputModels.SessionInputModel)">
+            <summary>
+            Cria uma seção do algorítmo genético
+            </summary>
+            <param name="inputModel">Parâmetros da seção</param>
+            <returns></returns>
+        </member>
+        <member name="M:Forklift.Webapi.Controllers.SessionsController.AdvanceGenerationsAsync(System.Guid,Forklift.Webapi.InputModels.ForewardGenerationsInputModel)">
+            <summary>
+            Avança um determinado número de gerações para uma determinada seção
+            </summary>
+            <param name="id">Id da seção</param>
+            <param name="inputModel">Parâmetros das gerações</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

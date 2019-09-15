@@ -19,6 +19,11 @@ namespace Forklift.Webapi.Controllers
             _repository = repository;
         }
 
+        /// <summary>
+        /// Cria uma seção do algorítmo genético
+        /// </summary>
+        /// <param name="inputModel">Parâmetros da seção</param>
+        /// <returns></returns>
         [HttpPost]
         public Task<ActionResult<SessionViewModel>> CreateSessionAsync([FromBody] SessionInputModel inputModel)
             => Task.Run<ActionResult<SessionViewModel>>(() =>
@@ -32,8 +37,14 @@ namespace Forklift.Webapi.Controllers
                 return Ok((SessionViewModel) session);
             });
 
+        /// <summary>
+        /// Avança um determinado número de gerações para uma determinada seção
+        /// </summary>
+        /// <param name="id">Id da seção</param>
+        /// <param name="inputModel">Parâmetros das gerações</param>
+        /// <returns></returns>
         [HttpPost("{id}")]
-        public Task<ActionResult<GenerationsViewModel>> CreateSessionAsync(Guid id, [FromBody] ForewardGenerationsInputModel inputModel = null)
+        public Task<ActionResult<GenerationsViewModel>> AdvanceGenerationsAsync(Guid id, [FromBody] ForewardGenerationsInputModel inputModel = null)
             => Task.Run<ActionResult<GenerationsViewModel>>(() =>
             {
                 var session = _repository.GetSession(id);
