@@ -9,10 +9,10 @@ namespace Forklift
     {
         public enum Movement
         {
-            North,
-            South,
-            East,
-            West
+            North = 0,
+            South = 1,
+            East = 2,
+            West = 3
         }
 
         public IEnumerable<Movement> Movements { get; private set; }

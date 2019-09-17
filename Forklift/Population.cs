@@ -29,6 +29,20 @@ namespace Forklift
             CrossoverRate = crossoverRate;
             MutationRate = mutationRate;
 
+            _routes = new List<Route>();
+            
+            for (int i = 0;  i < populationSize; i++)
+            {
+                var movements = new List<Route.Movement>();
+                for (int j = 0; j < 27; j++)
+                {
+                    var r = new Random();
+                    movements.Add((Route.Movement)r.Next(0, 3));
+                }
+                var route = new Route(movements);
+                _routes.Add(route);
+            }
+
             AdvanceGeneration();
         }
 
@@ -71,8 +85,14 @@ namespace Forklift
         {
             var entrants = new List<Route>();
 
-            foreach (var it in Enumerable.Range(0, 5))
-                entrants.Append(_routes[r.Next() % PopulationSize]);
+            for (int i = 0; i < 4; i++)
+            {
+                var t = r.Next();
+                entrants.Add(_routes[t % PopulationSize]);
+            }
+
+            //foreach (var it in Enumerable.Range(0, 5))
+
 
             return entrants.OrderBy(route => _optimizer.GetFitness(route, _map)).Last();
         }
@@ -95,9 +115,10 @@ namespace Forklift
             
             foreach (var route in routes)
             {
-                var posAleatoria = r.Next();
+                var posAleatoria = r.Next(0, 26);
                 var movements = route.Movements.ToArray();
-                movements[posAleatoria] = (Route.Movement)(r.Next() % 4);
+                var t = (Route.Movement)(r.Next() % 4);
+                movements[posAleatoria] = t;
 
                 newRoutes.Add(new Route(movements));
             }

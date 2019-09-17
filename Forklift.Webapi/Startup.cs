@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
+using Amazon.OpsWorks.Model;
 
 namespace Forklift.Webapi
 {
@@ -21,6 +22,8 @@ namespace Forklift.Webapi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<SessionsRepository>();
+
+            services.AddCors();
 
             services.AddMvc();
 
@@ -43,6 +46,9 @@ namespace Forklift.Webapi
                 c.SwaggerEndpoint("swagger/v1/swagger.json", "Soapstone Backend v1");
                 c.RoutePrefix = string.Empty;
             });
+
+            string[] origins = new string[] { "http://localhost:4200" };
+            app.UseCors(b => b.AllowAnyMethod().AllowAnyHeader().WithOrigins(origins));
 
             app.UseMvc();
         }
