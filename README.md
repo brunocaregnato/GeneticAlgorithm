@@ -9,4 +9,4 @@ Trabalho realizado para disciplina de Inteligência Artificial II pela Universid
  - É necessário deixar a aplicação aberta (pelo visual studio pode-se ativá-la pelo IIS Express) - lembrar
 que o projeto necessita estar selecionado como o WebApi.
 
-Desenvolvido por [Júlio De Bastiani](https://github.com/JulioDeBastiani) e [Bruno Caregnato](https://github.com/brunocaregnato).
+Desenvolvido por [Bruno Caregnato](https://github.com/brunocaregnato) e [Júlio De Bastiani](https://github.com/JulioDeBastiani).
